@@ -15,7 +15,7 @@ Compile time reflection is ideal for routing thing. Yesod uses template haskell 
 
 Scala has yet another unique construct called pattern match.  Tumblr's [colossus](https://tumblr.github.io/colossus/) is a great example to use pattern match for type safe routing.
 
-And of course, haskell has many type safe routing library. Check out the (review)[https://github.com/scotty-web/scotty/issues/60] for more info.
+And of course, haskell has many type safe routing library. Check out the [review](https://github.com/scotty-web/scotty/issues/60) for more info.
 
 JavaScript does not have powerful constructs like macro/pattern match. Combinator is the only way to achieve type safety but for client side component based routing, declaring more functions solely for routing doesn't feel natural. And specifically TypeScript is still too feeble to describe routing. However, by combining tagged template, function overloading (or fun-dep), and intersection type (or row polymorphism), we can still do some interesting thing. If this were written in flow-type, more interesting thing could happen.
 
